@@ -10,5 +10,8 @@
 /* Header e Footer */
 @import "./global/header.css";
 
+/* Lista de bicicletas */
+@import ".//bicicletas/bicicletas-lista.css";
+
 /* Home */
 @import "./home/introducao.css";
