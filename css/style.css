@@ -4,11 +4,19 @@
 @import "./utilidades/componentes.css";
 @import "./utilidades/cores.css";
 @import "./utilidades/tipografia.css";
+@import "seguros/seguros.css";
 
 /* @import "./utilidades/simple-anime.css"; */
 
 /* Header e Footer */
 @import "./global/header.css";
+@import "global/footer.css";
+
+/* Lista de bicicletas */
+@import ".//bicicletas/bicicletas-lista.css";
 
 /* Home */
 @import "./home/introducao.css";
+@import "./home/tecnologia.css";
+@import "./home/parceiros.css";
+@import "./home/depoimento.css";
