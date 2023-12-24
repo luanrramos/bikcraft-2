@@ -12,8 +12,12 @@
 @import "./global/header.css";
 @import "global/footer.css";
 
+/* Termos */
+@import "./termos/termos.css";
+
 /* Lista de bicicletas */
 @import ".//bicicletas/bicicletas-lista.css";
+@import ".//bicicletas/bicicletas.css";
 
 /* Home */
 @import "./home/introducao.css";

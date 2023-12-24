@@ -9,30 +9,25 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
 }
-.footer-contato {
-  display: grid;
-  gap: 40px;
+.footer-container h3 {
+  margin-bottom: 2rem;
 }
-.footer-contato ul {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+.footer-contato ul,
+.footer-info ul {
+  margin-bottom: 2rem;
+}
+
+.footer-contato li,
+.footer-info li {
+  margin-bottom: 1rem;
 }
 .footer-redes {
   display: flex;
   gap: 20px;
 }
 
-.footer-info {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.footer-info ul {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+.footer-container a:hover {
+  color: var(--cor-0);
 }
 
 @media (max-width: 800px) {

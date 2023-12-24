@@ -29,7 +29,7 @@
 
 .depoimento-conteudo p::before {
   content: "“";
-  left: -50px;
+  left: -40px;
   top: -20px;
 }
 

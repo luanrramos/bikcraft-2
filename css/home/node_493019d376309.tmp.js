@@ -9,15 +9,18 @@
   gap: 40px;
 }
 
-.tecnologia-img img {
+.tecnologia-img {
+  display: flex;
   width: 100%;
   height: 100%;
+}
+.tecnologia-img img {
   object-fit: cover;
   object-position: left;
 }
 .tecnologia-conteudo h2 {
   margin-bottom: 32px;
-}
+}6
 .tecnologia-conteudo > p {
   margin-bottom: 20px;
 }
@@ -35,17 +38,25 @@
 }
 
 .tecnologia-vantagens {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 40px;
 }
-.tecnologia-vantagens span {
-  max-width: max-content;
-  display: block;
-  margin-bottom: 10px;
+
+.tecnologia-vantagens div {
+  display: flex;
+  flex-direction: column;
+}
+
+span {
+  color: #fff;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px; /* 150% */
 }
 .tecnologia-vantagens div img {
   width: 24px;
-  margin-bottom: 12px;
 }
 
 @media (max-width: 800px) {
@@ -62,6 +73,6 @@
 
 @media (max-width: 600px) {
   .tecnologia-vantagens {
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
 }

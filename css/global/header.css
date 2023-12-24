@@ -1,5 +1,6 @@
 .header-bg {
   background-color: var(--cor-12);
+  padding-bottom: 20px;
 }
 
 .header-container {
@@ -60,15 +61,14 @@
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 600px) {
   .header-container {
-    place-content: center;
     gap: 10px;
+    padding-bottom: 0px;
   }
-  .header-menu {
-    place-content: center;
-  }
+
   .header-menu a {
     padding: 8px 12px;
+    font-size: 0.875rem;
   }
 }
