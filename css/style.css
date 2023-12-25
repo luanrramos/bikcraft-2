@@ -4,7 +4,6 @@
 @import "./utilidades/componentes.css";
 @import "./utilidades/cores.css";
 @import "./utilidades/tipografia.css";
-@import "seguros/seguros.css";
 
 /* @import "./utilidades/simple-anime.css"; */
 
@@ -19,8 +18,10 @@
 @import ".//bicicletas/bicicletas-lista.css";
 @import ".//bicicletas/bicicletas.css";
 
-/* Lista de bicicletas */
-@import ".//bicicletas/bicicletas-lista.css";
+/* Seguros */
+@import "seguros/seguros.css";
+@import "seguros/vantagens.css";
+@import "seguros/perguntas.css";
 
 /* Home */
 @import "./home/introducao.css";

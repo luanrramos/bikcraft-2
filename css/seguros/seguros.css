@@ -40,7 +40,6 @@
   grid-template-columns: 1fr auto;
   background-color: var(--cor-12);
   padding: 30px 60px;
-  align-items: center;
 }
 
 .seguros-grid-prata a {
@@ -53,7 +52,7 @@
   grid-column: 1;
   text-transform: uppercase;
   padding: 16px 24px;
-  max-width: 150px;
+  width: 130px;
   text-align: center;
   border-radius: 4px;
 }
@@ -71,7 +70,7 @@
 
 .seguros-grid-ouro a {
   grid-column: 1;
-  max-width: 150px;
+  max-width: 130px;
   text-align: center;
 }
 @media (max-width: 1000px) {
@@ -86,6 +85,10 @@
 }
 
 @media (max-width: 500px) {
+  .seguros-grid-prata {
+    padding: 15px 30px;
+  }
+
   .seguros-grid span {
     font-size: 1rem;
   }

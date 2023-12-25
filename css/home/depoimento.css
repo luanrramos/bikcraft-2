@@ -1,21 +1,24 @@
 .depoimento-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: end;
   background-color: var(--cor-p1);
+  overflow: hidden;
   gap: 40px;
+  max-height: 520px;
 }
 
 .depoimento-container img {
-  object-fit: cover;
-  object-position: center;
   width: 100%;
   height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0px;
 }
 .depoimento-conteudo {
   padding-bottom: 80px;
-  margin: 40px 40px;
   position: relative;
+  margin: 40px 40px;
+  place-self: center;
 }
 .depoimento-conteudo p {
   padding-bottom: 30px;
@@ -40,18 +43,33 @@
 @media (max-width: 800px) {
   .depoimento-container {
     grid-template-columns: 1fr;
-    justify-items: center;
   }
   .depoimento-container img {
     max-height: 200px;
+    width: 100%;
   }
   .depoimento-conteudo {
-    margin: 0px 40px;
     max-width: 500px;
+    padding-bottom: 24px;
+  }
+  .depoimento-conteudo p::before {
+    content: "“";
+    left: -36px;
+    top: -36px;
+  }
+
+  .depoimento-conteudo p {
+    font-size: 1.5rem;
   }
 
   .depoimento-conteudo span {
     display: block;
     text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .depoimento-conteudo p {
+    font-size: 1.125rem;
   }
 }

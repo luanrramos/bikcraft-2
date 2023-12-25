@@ -18,8 +18,17 @@
 }
 
 .botao-secundario {
-  background: var(--cor-10);
-  color: var(--cor-2);
+  color: var(--cor-4, --cor-0);
+  background-color: var(--cor-10);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 133.333% */
+  padding: 16px 24px;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 4px;
 }
 
 .botao-secundario:hover {
