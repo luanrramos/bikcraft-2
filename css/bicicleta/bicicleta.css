@@ -96,6 +96,9 @@
   padding-top: 92px;
   padding-bottom: 92px;
 }
+.seguro-conteudo p {
+  margin-bottom: 20px;
+}
 .seguro {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -120,6 +123,9 @@
   .bicicletas-img-grid {
     display: flex;
     flex-direction: column;
+  }
+  .seguro-conteudo h2 {
+    font-size: 2rem;
   }
 }
 

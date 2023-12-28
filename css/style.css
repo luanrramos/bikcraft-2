@@ -24,6 +24,11 @@
 /* Termos */
 @import "./termos/termos.css";
 
+/* Formulário */
+@import "utilidades/formulario.css";
+
+/* Orçamento */
+@import "orcamento/orcamento.css";
 /* Lista de bicicletas */
 @import ".//bicicletas/bicicletas-lista.css";
 @import ".//bicicletas/bicicletas.css";
