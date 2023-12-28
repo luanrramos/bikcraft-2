@@ -1,0 +1,151 @@
+.titulo-bicicleta-bg {
+  background-color: var(--cor-11);
+  padding-bottom: 80px;
+  margin-bottom: 2rem;
+}
+.titulo-bicicleta {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.bicicleta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.bicicletas-img-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.bicicletas-img-grid li:first-child {
+  grid-column: 1 / 3;
+}
+.bicicleta-conteudo > p {
+  margin-bottom: 40px;
+}
+.bicicleta-comprar {
+  display: grid;
+  grid-template-columns: max-content auto;
+  align-items: center;
+  justify-items: start;
+  gap: 8px 12px;
+  margin-bottom: 40px;
+}
+.bicicleta-comprar a {
+  grid-row: 1/3;
+}
+.bicicleta-comprar span {
+  display: flex;
+  gap: 12px;
+  padding: 4px 8px;
+  border-radius: 2px;
+  background-color: var(--cor-12);
+}
+.bicicleta-comprar img {
+  height: 100%;
+}
+
+.bicicleta-informacoes {
+  background-color: var(--cor-12);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 32px 32px;
+  margin-bottom: 40px;
+  margin-top: 12px;
+  gap: 20px;
+}
+
+.bicicleta-informacoes li {
+  display: grid;
+  gap: 10px;
+}
+
+.bicicleta-informacoes img {
+  max-width: 24px;
+}
+
+.bicicleta-ficha {
+  background-color: var(--cor-12);
+  padding: 32px 32px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}
+
+.bicicleta-ficha li {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.bicicleta-ficha li::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  top: 22px;
+  position: absolute;
+  background-color: var(--cor-11);
+}
+
+.seguro-bg {
+  background: var(--cor-11);
+  box-shadow: inset 0 80px var(--cor-0), inset 0 -80px var(--cor-12);
+}
+.seguro-conteudo {
+  padding-top: 92px;
+  padding-bottom: 92px;
+}
+.seguro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+.seguro h2 {
+  margin-bottom: 32px;
+}
+
+.seguro-img {
+  display: block;
+}
+
+.seguro img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1000px) {
+  .bicicletas-img-grid {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 800px) {
+  .bicicleta {
+    grid-template-columns: 1fr;
+  }
+  .bicicleta ul {
+    grid-row: 2;
+  }
+  .bicicletas-img-grid {
+    display: grid;
+  }
+  .seguro {
+    grid-template-columns: 1fr;
+  }
+  .seguro-conteudo {
+    grid-row: 1;
+    padding-top: 100px;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .bicicletas-img-grid {
+    display: flex;
+    flex-direction: column;
+  }
+}
