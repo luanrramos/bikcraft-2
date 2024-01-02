@@ -13,13 +13,13 @@ Tanto o wireframe quanto o design do projeto Bikcraft foram desenvolvidos no Fig
 - <a href= "https://www.figma.com/file/e6N7GrA13Cgz6EtPvWzrff/bikcraft-wireframe?type=design&node-id=0-1&mode=design&t=de635b7GNBNIK9tp-0"> Wireframe do projeto</a> <br>
 - <a href="https://www.figma.com/file/k4LUhA5nmBLpWvIhCvgkNR/bikcraft-figma?type=design&node-id=0-1&mode=design&t=e5mLXUSAsvukkktN-0"> Design do projeto</a>
 <h1> 🔧 Como executar o projeto</h1>
-<code> 
+```
 # Clone o repositório
 git clone https://github.com/luanrramos/bikcraft
 
 # Entre no diretório
 cd bikcraft 
-</code>
+```
 Depois disso, utilize uma ferramenta como o Live Server para criar um servidor local e executar o projeto.
 
 Desenvolvido com 💛 por Luan Ramos.
