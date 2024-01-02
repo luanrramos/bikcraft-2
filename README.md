@@ -18,7 +18,8 @@ Tanto o wireframe quanto o design do projeto Bikcraft foram desenvolvidos no Fig
 git clone https://github.com/luanrramos/bikcraft
 
 # Entre no diretório
-cd bikcraft</code>
+cd bikcraft 
+</code>
 Depois disso, utilize uma ferramenta como o Live Server para criar um servidor local e executar o projeto.
 
 Desenvolvido com 💛 por Luan Ramos.
