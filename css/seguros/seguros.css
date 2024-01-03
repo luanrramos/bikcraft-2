@@ -35,13 +35,6 @@
   left: -21px;
 }
 
-.seguros-grid-prata {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  background-color: var(--cor-12);
-  padding: 30px 60px;
-}
-
 .seguros-grid-prata a {
   color: var(--c4, --cor-0);
   font-family: Poppins;
@@ -59,6 +52,12 @@
 .seguros-grid span {
   display: block;
   text-align: right;
+}
+.seguros-grid-prata {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  background-color: var(--cor-12);
+  padding: 30px 60px;
 }
 
 .seguros-grid-ouro {
@@ -85,11 +84,10 @@
 }
 
 @media (max-width: 500px) {
-  .seguros-grid-prata {
-    padding: 15px 30px;
-  }
-
   .seguros-grid span {
+    font-size: 1rem;
+  }
+  .seguros-grid li {
     font-size: 1rem;
   }
   .seguros-grid a {
